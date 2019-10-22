@@ -12,10 +12,9 @@ exception will be thrown if you attempt to load this module in older versions.
 ## instanceofUnifier(Class, matcher)
 
 Calling this function makes alterations to the way `instanceof` works on `Class`.
-`matcher` must be a `string` or a `Symbol`.  If a string is provided it will be
-passed to `Symbol.for` to create a matcher symbol.
+`matcher` must be a `string`.
 
-The user is responsible for picking a unique symbol name.  It is recommended to use
+The user is responsible for picking a unique matcher name.  It is recommended to use
 `<module-name>@<version>:package-local-id`.  Version does not have to match the package
 version but it is important to increment it any time a version update is not compatible
 with previous versions.
