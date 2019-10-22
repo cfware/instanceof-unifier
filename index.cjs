@@ -2,11 +2,6 @@
 
 module.exports = instanceofUnifier;
 
-/* istanbul ignore next */
-if (!Symbol.hasInstance) {
-	throw new Error('Not supported');
-}
-
 function instanceofUnifier(Class, matcher) {
 	if (typeof Class !== 'function') {
 		throw new TypeError('First argument must be a class');
