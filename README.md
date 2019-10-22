@@ -6,8 +6,7 @@
 [![MIT][license-image]](LICENSE)
 
 Allow `instanceof` to match even if comparing an instance created by a different
-copy of the class.  This module requires node.js 6.5.0 or above to function, an
-exception will be thrown if you attempt to load this module in older versions.
+copy of the class.  This module requires node.js 6.5.0 or above to function.
 
 ## instanceofUnifier(Class, matcher)
 
