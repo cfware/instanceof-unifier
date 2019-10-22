@@ -1,0 +1,4 @@
+.travis.yml
+.nyc_output/
+*.tgz
+test.js

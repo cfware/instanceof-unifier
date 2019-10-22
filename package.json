@@ -1,0 +1,23 @@
+{
+	"name": "instanceof-unifier",
+	"version": "0.1.0",
+	"description": "Allow `instanceof` to match even if comparing an instance created by a different copy of the class",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"engines": {
+		"node": ">=6.5.0"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"main": "index.cjs",
+	"module": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/instanceof-unifier.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/instanceof-unifier/issues"
+	},
+	"homepage": "https://github.com/cfware/instanceof-unifier#readme"
+}
